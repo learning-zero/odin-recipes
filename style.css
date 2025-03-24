@@ -12,10 +12,47 @@ p,li{
     width: 300px;
 }
 
+.description{
+    background: #fff9e6;
+    border-radius: 12px;
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 18px;
+
+}
+
 h1{
     font-family:'Courier New', Courier, monospace
 }
 
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ol {
+    list-style: none;
+    counter-reset: steps;
+    margin: 0;
+    background: #fff9e6;
+    border-radius: 12px;
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 18px;
+  }
+
+ol li {
+    counter-increment: steps;
+}
+
+ol li::before{
+    content: counter(steps);
+    margin-right: 0.5rem;
+    background: #ff6f00;
+    color: white;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.2em;
 }
