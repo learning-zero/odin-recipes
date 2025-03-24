@@ -1,0 +1,20 @@
+ul{
+    list-style-type: square;
+    background: #fff9e6;
+    border-radius: 12px;
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 18px;
+}
+
+p,li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
